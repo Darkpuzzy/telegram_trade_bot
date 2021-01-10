@@ -1,3 +1,11 @@
 bot:
   token: 1458444160:AAH2dhjtcXiQuCzzKKkMdkHWXVG2wo0Thig
-  access_key: 88dc4be0-600c-427f-9488-da198d507eae
+  access_key: 88dc4be0600c427f9488da198d507eae
+
+db:
+  redis:
+    url: redis://localhost/?password=telestat
+    host: localhost
+    port: 6379
+    password: telestat
+  postgres: postgres://walther:walther@localhost:5432/trade_bot
